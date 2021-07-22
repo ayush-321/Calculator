@@ -49,10 +49,6 @@ for (var i = 0; i < button.length; i++) {
                 operator = null;
             }
 
-            if(result / 0){
-                var error = "Error";
-                display.textContent = error;
-            }
         } else if (value == '.') {
             if (text.length && !text.includes('.')) {
                 display.textContent = text + '.';
